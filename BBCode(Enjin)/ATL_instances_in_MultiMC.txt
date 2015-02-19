@@ -1,0 +1,60 @@
+[size=6]How to launch an ATLauncher instance with MultiMC[/size]
+
+We will be using Resonant Rise 3 for this tutorial.
+
+[size=5]1) Create a MultiMC instance[/size]
+
+[img]http://i.imgur.com/VlrwTPD.png[/img]
+
+Don't forget to select the correct minecraft version (1.7.10)
+
+[size=5]2) Link the ATL and MultiMC instances[/size]
+
+1) Select your newly-made MultiMC instance and click _Open this instance folder in a file browser_.
+[img]http://i.imgur.com/ecFQi5C.png[/img]
+
+2) Delete the _minecraft_ folder.
+[img]http://i.imgur.com/Rf807jj.png[/img]
+
+3) Open a command terminal
+[list]
+[*] [b]Windows[/b]: `WIN+R` > `Enter "cmd"` > `Click "OK"`
+[*] [b]Mac[/b]: `Navigate to"/Applications/Utilities"` > `Double-click "Terminal"`
+[*] [b]Linux[/b]: `Ctrl+Alt+T` or `Ctrl+Alt+F1`
+[/list]
+
+4) Create a symbolic link to the ATLauncher instance of the pack
+- In the command terminal type the following command:
+[indent]
+  [list]
+  [*] [b]Windows[/b]:
+    [code] mklink \j "\path\to\MultiMC folder\instances\<instance name>\minecraft" "\path\to\ATL folder\Instances\<pack>"[/code]
+    [img]http://i.imgur.com/qK8G142.png[/img]
+
+  [*] [b]Linux/Mac[/b]:
+    [code]ln -s "/path/to/ATL folder/Instances/<pack>" "/path/to/MultiMC folder/instances/<instance name>/minecraft"[/code]
+  [/list]
+[/indent]
+- You should see something similar to [b]this image[/b] in your file browser:
+[img]http://i.imgur.com/oUiOniZ.png[/img]
+
+[size=5]3) Install Forge and Liteloader[/size]
+
+1) In MultiMC, select your instance and click __Edit Instance__ on the right.
+
+[img]http://i.imgur.com/dWxcnti.png[/img]
+
+2) Click __Install Forge__ and __Install Liteloader__ and select the versions corresponding to your pack's configuration.
+[img]http://i.imgur.com/QtKM4rk.png[/img]
+
+_For Resonant Rise 3 this was `Forge 10.13.2.1291` and `Liteloader 1.7.10_04`_
+
+[size=5]4) Verify your work[/size]
+
+Click the __Loader mods__ tab on the left and check if it is popuplated with mods from the _mods folder_.
+[img]http://i.imgur.com/6FbWhsK.png[/img]
+
+[size=5]5) Done![/size]
+
+You can now close this window and launch your instance.
+[img]http://i.imgur.com/FwTh7my.jpg[/img]
