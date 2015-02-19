@@ -3,12 +3,13 @@ How to launch an ATLauncher instance with MultiMC
 
 We will be using Resonant Rise 3 for this tutorial.
 
-1) Create a MultiMC instance
+1) Create a MultiMC instance<sup>*</sup>
 ---
 ![Setting up an instance](http://i.imgur.com/VlrwTPD.png)
 
 Don't forget to select the correct minecraft version (1.7.10)
 
+<sup>*Deleting this instance via MultiMC will also delete the ATL instance</sup>
 2) Link the ATL and MultiMC instances
 ---
 1) Select your newly-made MultiMC instance and click _Open this instance folder in a file browser_.

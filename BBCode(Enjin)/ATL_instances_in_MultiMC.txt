@@ -2,12 +2,12 @@
 
 We will be using Resonant Rise 3 for this tutorial.
 
-[size=5]1) Create a MultiMC instance[/size]
+[size=5]1) Create a MultiMC instance*[/size]
 
 [img]http://i.imgur.com/VlrwTPD.png[/img]
 
 Don't forget to select the correct minecraft version (1.7.10)
-
+[size=2]*Deleting this instance via MultiMC will also delete the ATL instance[/size]
 [size=5]2) Link the ATL and MultiMC instances[/size]
 
 1) Select your newly-made MultiMC instance and click _Open this instance folder in a file browser_.
