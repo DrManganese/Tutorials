@@ -2,9 +2,10 @@ Placing tile entities that MyTown pops off (without allowing outsiders to modify
 ===
 
 Mytown will not allow you to place certain tile entities in your town to stop griefing. (e.g. MFR Rancher)
+This tutorial will show you how to allow those blocks in your town
 ![Pops off](http://i.imgur.com/88FYyEs.png)
 
-1) Allow modification of blocks by everyone
+I) Allow modification of blocks by everyone
 ---
 Type the following command:
 ####`/town perm town set modifyBlocks true`
@@ -12,7 +13,7 @@ Type the following command:
 
 ![modifyBlocks command](http://imgur.com/IaD4005.png)
 
-2) Add to whitelist
+II) Add to whitelist
 ---
 ###1) Place down the block.
 ###2) Type the following command:
@@ -28,7 +29,7 @@ Type the following command:
 
 ![whitelisted](http://i.imgur.com/KEmBwou.png)
 
-3) Re-disable modification by outsiders
+III) Re-disable modification by outsiders
 ---
 Type the following command:
 ####`/town perm town set modifyBlocks false`
